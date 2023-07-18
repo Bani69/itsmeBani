@@ -33,13 +33,18 @@
 }
 
 section:nth-child(1){
-    height: 100vh;
+  height: 100vh;
+    display: flex;
+    justify-content: center;
+
+width: 100%;
 padding-bottom: 2rem;
     overflow-x: hidden;
 }
 
 
 .section3{
+    padding-bottom: 6rem;
     overflow-x: hidden;
     display: flex;
     justify-content: center;
@@ -60,7 +65,7 @@ flex-direction: column;
 }
 .section2 {
 padding-bottom: 60px;
-    height:auto ;
+
     overflow-x: hidden;
 
 }
@@ -242,13 +247,16 @@ flex-direction: column;
     }
 
 }
-@media only screen and (max-height: 820px) {
+@media only screen and (max-height: 600px) {
     section:nth-child(1){
         height: auto;
+        display: flex;
+        justify-content: center;
+
+        width: 100%;
         padding-bottom: 2rem;
         overflow-x: hidden;
     }
-
 
 
 }
