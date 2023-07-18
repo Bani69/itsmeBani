@@ -1,0 +1,26 @@
+*{
+    scroll-behavior: smooth;
+    margin: 0;
+padding: 0;
+    box-sizing: border-box;
+
+}
+/*:root {*/
+/*    --navbar-bg: 240,255,253;*/
+/*    --bg-color: #f0fffd;*/
+/*    --text-color: #00331a;*/
+/*    --accent: #0c6;*/
+/*    --bg-color-2: rgba(0,51,26,0.726);*/
+/*    --bg-color-3: #e0e0e0;*/
+/*    --bg-color-4: #ededed;*/
+/*}*/
+/*.dark {*/
+/*    --navbar-bg: 23,23,23;*/
+/*    --bg-color: #171717;*/
+/*    --text-color: #f5f5f5;*/
+/*    --accent: #00e673;*/
+/*    --bg-color-2: #292929;*/
+/*    --bg-color-3: #292929;*/
+/*    --bg-color-4: #1f1f1f*/
+/*}*/
+

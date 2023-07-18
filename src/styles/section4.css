@@ -1,0 +1,280 @@
+
+:root {
+    --navbar-bg: 240, 255, 253;
+    --bg-color: #f0fffd;
+    --text-color: #00331a;
+    --accent: #0c6;
+    --bg-color-2: rgba(0, 51, 26, 0.726);
+    --bg-color-3: #e0e0e0;
+    --bg-color-4: rgba(0,51,26,.032);
+     --bg-color-5:rgba(0,51,26,.151)
+}
+
+[data-theme='dark'] {
+    --navbar-bg: 23, 23, 23;
+    --bg-color: #171717;
+    --text-color: #f5f5f5;
+    --accent: #00e673;
+    --bg-color-2: #292929;
+    --bg-color-3: #292929;
+    --bg-color-4: #1f1f1f;
+    --bg-color-5:  #292929;
+}
+
+
+.con {
+
+    display: flex;
+    justify-content:center;
+    place-items: center;
+    width: 100%;
+    height: 100%;
+    padding-right: 5rem;
+  flex-direction: row;
+    gap: 11rem;
+
+}
+.con11 {
+
+    display: flex;
+
+    place-items: center;
+
+justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+.con div  img {
+    min-width: 280px;
+    max-width: 280px;
+}
+
+
+.con .con12 {
+
+    height: 60%;
+    width: 35%;
+
+}
+.con div  form{
+    background: var(--bg-color-4);
+    height: 100%;
+    width: 100%;
+    row-gap: 15px;
+    padding: 1.6rem 2.4rem;
+    border-radius: 2rem;
+position: relative;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.con div  form input{
+    background: var(--bg-color-5);
+    width: 100%;
+    border: none;
+    outline: none;
+    z-index: 1111;
+    padding: 1rem ;
+    border-radius: 0.7rem;
+    color: var(--text-color);
+    font-family: Consolas;
+
+}
+.con div  form label {
+
+
+text-align: left;
+
+
+
+
+    color: var(--text-color);
+    font-family: Consolas;
+
+}
+.con div  form  div{
+    width: 100%;
+display: flex;
+    justify-content: center;
+
+
+}
+.con div  form  div button{
+    z-index: 1111;
+    background: #00e673;
+    border: none;
+    padding: 10px  3rem;
+    border-radius: 0.3rem;
+    color: var(--text-color);
+    font-weight: bold;
+    font-family: Kanit;
+    letter-spacing: 1px;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, .1);
+    position: relative;
+}
+
+
+
+.con div  form button:before {
+    content: "";
+    position: absolute;
+    top: -2%;
+    left: -2%;
+
+    border: 1px solid var(--accent);
+    height: 105%;
+    width: 105%;
+    border-radius: .6rem;
+    color: #fff;
+    transform: rotate(-3.0deg);
+
+    -webkit-box-shadow: 0 8px 15px rgba(0,0,0,.1);
+    box-shadow: 0 8px 15px rgba(0,0,0,.1);
+
+}
+
+
+
+
+
+
+textarea{
+
+    z-index: 1111;
+    width: 100%;
+    border: none;
+    outline: none;
+    background: var(--bg-color-5);
+    padding: 1rem;
+    border-radius: 0.7rem;
+    color: var(--text-color);
+    font-family: Consolas;
+      height: 100%;
+}
+
+.con div  form h1{
+text-align: center;
+    font-size: 38px;
+
+    letter-spacing: 1px;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, .1);
+    position: relative;
+    font-family: Kanit;
+    color: var(--text-color);
+    width: 90%;
+    font-weight: bold;
+
+}
+
+
+.con div  form::before{
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid var(--bg-color-2);
+    height: 102%;
+    width: 102%;
+    color: #fff;
+
+    transform: rotate(-1.5deg);
+    border-radius: 2rem;
+
+    z-index: 111;
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+footer{
+
+    position: absolute;
+    bottom: 0;
+    padding: 1rem;
+ text-align: center;
+    font-size: 18px;
+
+    letter-spacing: 1px;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, .1);
+
+    font-weight: bold;
+ font-family: Consolas;
+    color: var(--text-color);
+    width: 90%;
+
+
+}
+footer span{
+   color: var(--accent);
+
+
+}
+footer img{
+    width: 22px;
+    height: 22px;
+    filter: invert(-100%);
+    transform: translateY(5px);
+}
+
+@media only screen and (max-width: 890px) {
+    .con {
+
+        display: flex;
+        justify-content: end;
+        place-items: center;
+        width: 100%;
+        height: 100%;
+        padding-right: 0rem;
+        flex-direction: column;
+        gap: 0rem;
+    }
+    .con .con12 {
+
+        height: 50%;
+        width: 90%;
+
+    }
+}
+
+
+@media only screen and (max-width: 450px) {
+
+
+    .con div img {
+        min-width: 180px;
+        max-width: 180px;
+    }
+    .con div  form h1 {
+        text-align: center;
+        font-size: 23px;
+    }
+
+}
+
+
+
+
