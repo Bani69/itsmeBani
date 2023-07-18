@@ -42,7 +42,8 @@ function Section4() {
                 </motion.div>
 
             </div>
-            <footer>Created with <img src={r}/> By <span>@JiovaniFabro</span></footer>
+            <div><footer>Created with <img src={r}/> By <span>@JiovaniFabro</span></footer></div>
+
         </>
 
 

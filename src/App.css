@@ -51,10 +51,12 @@ height:100vh ;
 .section4{
     display: flex;
     justify-content: center;
-
+flex-direction: column;
     place-items: center;
     position: relative;
-    padding-bottom: 6rem;
+    padding-bottom: 2rem;
+    height: auto;
+
 }
 .section2 {
 padding-bottom: 60px;
