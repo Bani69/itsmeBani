@@ -54,7 +54,7 @@ function App() {
                         </motion.h1>
 
                         <div className="btns">
-                            <motion.a href="#section2" {...animation(1.1)}>Projects</motion.a>
+                            <motion.a href="#section2" {...animation(1.1)} className="projbtn">Projects</motion.a>
                             <div>
 
                                 <motion.a {...animation(1.3)} href="#"><img src={face}/></motion.a>

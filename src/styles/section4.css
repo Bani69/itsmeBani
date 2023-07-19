@@ -236,14 +236,14 @@ padding-top: 4rem;
 }
 footer span{
    color: var(--accent);
-
+  font-family:  Kanit;
 
 }
 footer img{
     width: 22px;
     height: 22px;
     filter: invert(-100%);
-
+    transform: translateY(5px);
 }
 
 @media only screen and (max-width: 890px) {
@@ -267,7 +267,7 @@ footer img{
 }
 
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 550px) {
 
 
     .con div img {
