@@ -134,7 +134,7 @@ position: relative;
     display: flex;
     justify-content: center;
     border: 1px solid var(--bg-color-2);
-    transition:  ease-in 0.2s;
+
 
 z-index: 1;
 }
