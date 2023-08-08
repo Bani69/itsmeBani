@@ -50,16 +50,18 @@ function App() {
                         <motion.h1 className="introh" initial={{translateX: 90, opacity: 0}}
                                    whileInView={{translateX: 0, opacity: 1}}
                                    transition={{duration: 0.6, delay: 0.8}}> As a <span>Hobby</span>,
-                                   I <span>design</span> and <span>develop</span> things for the web .
+                            I <span>design</span> and <span>develop</span> things for the web .
                         </motion.h1>
 
                         <div className="btns">
                             <motion.a href="#section2" {...animation(1.1)} className="projbtn">Projects</motion.a>
                             <div>
 
-                                <motion.a {...animation(1.3)} href="#"><img src={face}/></motion.a>
+                                <motion.a {...animation(1.3)} href="https://web.facebook.com/jiovani.fabro.6/"><img
+                                    src={face}/></motion.a>
                                 <motion.a  {...animation(1.6)} href="#"><img src={instagram}/></motion.a>
-                                <motion.a  {...animation(1.9)} href="#"><img src={github}/></motion.a>
+                                <motion.a  {...animation(1.9)} href="https://github.com/Bani69"><img src={github}/>
+                                </motion.a>
                                 <motion.a   {...animation(2)} href="#"><img src={twitter}/></motion.a>
 
                             </div>
@@ -74,15 +76,12 @@ function App() {
 
             </section>
             <section id="section3" className="section3" data-theme={isActive}>
-                <Section3 />
+                <Section3/>
             </section>
 
 
-
-
-
-            <section id="section4" className="section4" >
-                <Section4 />
+            <section id="section4" className="section4">
+                <Section4/>
             </section>
         </div>
     );

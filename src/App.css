@@ -111,7 +111,7 @@ gap: 2rem;
     letter-spacing: 1px;
     text-shadow: 2px 4px 3px rgba(0, 0, 0, .1);
     position: relative;
-    font-family: Kanit;
+    font-family: Kanit, serif;
     color: var(--text-color);
     width: 90%;
 
@@ -119,7 +119,7 @@ gap: 2rem;
 
 .introduction h4 {
 
-    font-family: Cascadia Code;
+    font-family: Cascadia Code, serif;
     color: var(--text-color);
     text-align: left;
     font-size: 1.8rem;
@@ -171,7 +171,7 @@ justify-content: start;
     background:var(--accent);
 
     font-weight: bold;
-    font-family: Cascadia Code;
+    font-family: Cascadia Code, serif;
     font-size: 15px;
     padding: 15px 25px;
     border-radius: 10px;
