@@ -166,14 +166,14 @@ background: var(--bg-color-4);
 
     background-position: center;
 
-background-image: url('../images/a1.jpeg');
+background-image: url('../images/a1.jpg');
    background-size: cover;
 }
 
 .container2 div:nth-child(2){
     background-position: center;
     background-size: cover;
-    background-image:url('../images/a2.jpeg');
+    background-image:url('../images/a2.jpg');
 
 
 }
